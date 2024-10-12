@@ -1,0 +1,88 @@
+/* General Styles */
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2em;
+}
+
+.message-container {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+  background-color: #efeff6;
+}
+
+.message-container h3 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.message-container p {
+  margin: 5px 0;
+}
+
+.createdAt {
+  font-size: 0.9em;
+  color: gray;
+}
+
+/* Responsive Styling for iPhone 12 Pro and Similar Devices */
+@media (max-width: 390px) {
+  .App {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  .message-container {
+    padding: 10px;
+    margin: 8px 0;
+  }
+
+  .message-container h3 {
+    font-size: 1.2em;
+  }
+
+  .message-container p {
+    font-size: 0.95em;
+  }
+
+  .createdAt {
+    font-size: 0.85em;
+  }
+}
+
+/* General Responsive Styles for Smaller Devices */
+@media (max-width: 768px) {
+  .App {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 1.8em;
+  }
+
+  .message-container {
+    padding: 12px;
+    margin: 8px 0;
+  }
+
+  .message-container h3 {
+    font-size: 1.3em;
+  }
+
+  .message-container p {
+    font-size: 0.9em;
+  }
+
+  .createdAt {
+    font-size: 0.85em;
+  }
+}
